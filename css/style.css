@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 /* Global */
 body {
@@ -37,6 +38,9 @@ h2 {
     padding: 30px;
     background: #461273;
     color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 .header header {
     font-size: 30px;
